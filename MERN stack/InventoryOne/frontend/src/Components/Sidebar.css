@@ -1,0 +1,45 @@
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #222;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  .sidebar-heading {
+    font-size: 2rem; /* Increase the font size */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-list li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-list a {
+    font-size: 1.2rem; /* Increase the font size */
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-list a:hover {
+    background-color: #444;
+  }
+  
+  .active-link {
+    background-color: #555;
+  }
+  
+  /* Additional styling for active link */
+  

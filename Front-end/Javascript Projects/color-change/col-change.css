@@ -1,0 +1,26 @@
+.container{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    margin: auto;
+}
+.display{
+    height: 100px;
+    width: 290px;
+    text-align: center;
+    display: flex;
+    border: 2px solid black;
+    margin: 3px ;
+    padding: auto;
+    text-decoration-color: yellowgreen;
+}
+button{
+    margin: 3px 3px auto;
+    padding: 2px auto;
+    width: 65px;
+    height: 40px;    
+    font-size: 18px;
+    border-radius: 3px;
+    box-shadow: 5px black;
+    cursor: pointer;
+}
